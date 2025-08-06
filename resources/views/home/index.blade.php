@@ -1,16 +1,16 @@
 @extends('layouts.app')
-@section('title', 'Home')
+@section('title', 'IBlog')
 
 @section('main-content')
     <!-- Hero Section -->
     @include('home.hero')
 
     <!-- Featured Posts -->
-    @include('categoires.featured')
+    @include('posts.featured')
     <!-- Main Content -->
     <div class="container mx-auto px-4 py-8 flex flex-col lg:flex-row gap-8">
         <!-- Recent Articles -->
-        @include('categoires.recent')
+        @include('posts.recent')
 
         <!-- Sidebar -->
         <aside class="lg:w-1/3 space-y-8">
