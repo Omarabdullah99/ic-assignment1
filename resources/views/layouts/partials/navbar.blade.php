@@ -2,7 +2,7 @@
     <header class="bg-white shadow-sm sticky top-0 z-50">
         <div class="container mx-auto px-4 py-4 md:py-0  flex justify-between items-center">
             <div class="flex items-center space-x-2">
-                <a href="./index.html" class="flex items-center space-x-2">
+                <a href="{{route('home.index')}}" class="flex items-center space-x-2">
                     <i class="fas fa-blog text-2xl text-blue-600"></i>
                     <h1 class="text-2xl font-bold text-gray-800">I<span class="text-blue-600">Blog</span></h1>
                 </a>
@@ -19,10 +19,10 @@
                     <div class="absolute left-0 w-64 bg-white rounded-md shadow-lg hidden z-50 desktop-dropdown-menu">
                         <div class="py-2">
                             <div class="relative desktop-dropdown-sub">
-                                <button class=" px-4 py-2 text-gray-700 hover:bg-gray-100 transition flex justify-between items-center w-full text-left">
+                                <a href="{{ route('categories.show', 'web-development') }}" class=" px-4 py-2 text-gray-700 hover:bg-gray-100 transition flex justify-between items-center w-full text-left">
                                     Web Development
                                     <i class="fas fa-chevron-right text-xs"></i>
-                                </button>
+                                </a>
                                 <div class="absolute left-full top-0 mt-0 w-64 bg-white rounded-md shadow-lg hidden desktop-dropdown-submenu">
                                     <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Frontend</a>
                                     <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Backend</a>
@@ -30,20 +30,20 @@
                                 </div>
                             </div>
                             <div class="relative desktop-dropdown-sub">
-                                <button class=" px-4 py-2 text-gray-700 hover:bg-gray-100 transition flex justify-between items-center w-full text-left">
+                                <a href="{{ route('categories.show', 'artificial-intelligence') }}" class=" px-4 py-2 text-gray-700 hover:bg-gray-100 transition flex justify-between items-center w-full text-left">
                                     Artificial Intelligence
                                     <i class="fas fa-chevron-right text-xs"></i>
-                                </button>
+                                </a>
                                 <div class="absolute left-full top-0 mt-0 w-64 bg-white rounded-md shadow-lg hidden desktop-dropdown-submenu">
                                     <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Machine Learning</a>
                                     <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Deep Learning</a>
                                     <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">NLP</a>
                                 </div>
                             </div>
-                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Cloud Computing</a>
-                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Cybersecurity</a>
-                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Mobile Development</a>
-                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">DevOps</a>
+                            <a href="{{ route('categories.show', 'cloud-computin') }}"class="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Cloud Computing</a>
+                            <a href="{{ route('categories.show', 'cyber-security') }}" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Cybersecurity</a>
+                            <a href="{{ route('categories.show', 'mobile-development') }}" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Mobile Development</a>
+                            <a href="{{ route('categories.show', 'dev-ops') }}" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">DevOps</a>
                         </div>
                     </div>
                 </div>
