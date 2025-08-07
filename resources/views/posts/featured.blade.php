@@ -7,7 +7,7 @@
                     <img src="https://placehold.co/480x200/png" alt="Web Development" class="w-full h-48 object-cover">
                     <div class="p-6">
                         <div class="flex items-center text-sm text-gray-500 mb-2">
-                            <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-md text-xs">Web Development</span>
+                            <a href="{{ route('categories.show', 'web-development') }}"><span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-md text-xs">Web Development</span></a>
                             <span class="mx-2">•</span>
                             <span>May 15, 2023</span>
                             <span class="mx-2">•</span>
@@ -24,7 +24,7 @@
                     <img src="https://placehold.co/480x200/png" alt="Artificial Intelligence" class="w-full h-48 object-cover">
                     <div class="p-6">
                         <div class="flex items-center text-sm text-gray-500 mb-2">
-                            <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-md text-xs">Artificial Intelligence</span>
+                            <a href="{{ route('categories.show', 'artificial-initelligence') }}"><span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-md text-xs">Artificial Intelligence</span></a>
                             <span class="mx-2">•</span>
                             <span>June 2, 2023</span>
                             <span class="mx-2">•</span>
@@ -41,7 +41,7 @@
                     <img src="https://placehold.co/480x200/png" alt="Cloud Computing" class="w-full h-48 object-cover">
                     <div class="p-6">
                         <div class="flex items-center text-sm text-gray-500 mb-2">
-                            <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-md text-xs">Cloud Computing</span>
+                            <a href="{{ route('categories.show', 'cloud-computing') }}"><span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-md text-xs">Cloud Computing</span></a>
                             <span class="mx-2">•</span>
                             <span>June 10, 2023</span>
                             <span class="mx-2">•</span>
