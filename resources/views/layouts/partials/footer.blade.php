@@ -3,7 +3,7 @@
             <div class="grid md:grid-cols-4 gap-8">
                 <div>
                     <div class="flex items-center space-x-2 mb-4">
-                        <a href="./index.html" class="flex items-center space-x-2">
+                        <a href="{{route('home.index')}}" class="flex items-center space-x-2">
                             <i class="fas fa-blog text-2xl text-blue-400"></i>
                             <h3 class="text-2xl font-bold">I<span class="text-blue-400">Blog</span></h3>
                         </a>

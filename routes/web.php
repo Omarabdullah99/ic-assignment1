@@ -10,6 +10,14 @@ Route::get('/profile', function(){
     return view('profile.index');
 })->name('profile.index');
 
+Route::get('/login', function(){
+    return view('layouts.partials.login');
+})->name('login');
+
+Route::get('/register', function(){
+    return view('layouts.partials.register');
+})->name('register');
+
 Route::get('/categories/{category:slug}', function(){
     return view('categories.show');
 })->name('categories.show');
