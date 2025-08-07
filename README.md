@@ -66,8 +66,20 @@ Asset management using @vite and asset() helpers
 🚀 How to Run
 
 # Install dependencies
+
+# 📦 Install PHP dependencies
 composer install
+
+# ⚙️ Copy .env file
+cp .env.example .env
+
+# 🔑 Generate application key
+php artisan key:generate
+
+# 💻 Install JS dependencies and compile assets
 npm install && npm run dev
+
+
 
 # Serve the project
 php artisan serve and npm run dev
