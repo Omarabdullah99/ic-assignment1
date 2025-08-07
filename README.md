@@ -24,20 +24,27 @@ layouts/partials/categories.blade.php
 
 layouts/partials/newsLetter.blade.php
 
+layouts/partials/popularTags.blade.php
+
+layouts/partials/profileNavbar.blade.php
+
+layouts/partials/login.blade.php
+
+layouts/partials/register.blade.php
+
 📄 3. Page Conversion
 Multiple dynamic views were created:
 
 home/index.blade.php
 
-auth/login.blade.php
+posts/index.blade.php
 
-auth/register.blade.php
+categories/show.blade.php
 
-profile.blade.php
+profile/index.blade.php
 
-categories.blade.php
+single/index.blade.php
 
-posts/single.blade.php
 
 These pages extend the base layout and include relevant components.
 
@@ -46,27 +53,7 @@ All custom styles and scripts were moved to resources/css/style.css and resource
 
 Assets are linked using Blade’s asset() or @vite() helper for proper loading.
 
-📁 Folder Structure Highlights
-arduino
-Copy
-Edit
-resources/views/
-├── layouts/
-│   ├── app.blade.php
-│   └── partials/
-│       ├── navbar.blade.php
-│       ├── footer.blade.php
-│       ├── about.blade.php
-│       ├── categories.blade.php
-│       └── newsLetter.blade.php
-├── home/
-│   └── index.blade.php
-├── posts/
-│   ├── featured.blade.php
-│   └── recent.blade.php
-└── auth/
-    ├── login.blade.php
-    └── register.blade.php
+
 📌 Blade Features Used
 @extends, @section, @yield
 
@@ -77,9 +64,7 @@ Blade syntax for conditionals and loops (where required)
 Asset management using @vite and asset() helpers
 
 🚀 How to Run
-bash
-Copy
-Edit
+
 # Install dependencies
 composer install
 npm install && npm run dev
@@ -87,5 +72,5 @@ npm install && npm run dev
 # Serve the project
 php artisan serve
 🔗 Repository
-Provide your GitHub repo link here once uploaded.
+[Provide your GitHub repo link here once uploaded.](https://github.com/Omarabdullah99/ic-assignment1)
 
