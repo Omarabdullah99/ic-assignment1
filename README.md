@@ -70,7 +70,7 @@ composer install
 npm install && npm run dev
 
 # Serve the project
-php artisan serve
+php artisan serve and npm run dev
 🔗 Repository
 [Provide your GitHub repo link here once uploaded.](https://github.com/Omarabdullah99/ic-assignment1)
 
