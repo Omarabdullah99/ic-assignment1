@@ -19,7 +19,7 @@
                 <h3 class="text-xl font-bold mb-2 text-gray-800">React 18: What's New and Improved</h3>
                 <p class="text-gray-600 mb-4">Discover the exciting new features and improvements in React 18 and how
                     they can benefit your projects.</p>
-                <a href="#" class="text-blue-600 font-medium hover:text-blue-800 transition">Read More</a>
+                <a href="{{route('single.index', 'single-page')}}" class="text-blue-600 font-medium hover:text-blue-800 transition">Read More</a>
             </div>
         </article>
 
@@ -40,7 +40,7 @@
                 <h3 class="text-xl font-bold mb-2 text-gray-800">Cybersecurity Essentials for Developers</h3>
                 <p class="text-gray-600 mb-4">Key security practices every developer should implement to protect their
                     applications and users.</p>
-                <a href="#" class="text-blue-600 font-medium hover:text-blue-800 transition">Read More</a>
+                <a href="{{route('single.index', 'single-page')}}" class="text-blue-600 font-medium hover:text-blue-800 transition">Read More</a>
             </div>
         </article>
 
@@ -61,7 +61,7 @@
                 <h3 class="text-xl font-bold mb-2 text-gray-800">The Rise of Low-Code Development Platforms</h3>
                 <p class="text-gray-600 mb-4">How low-code platforms are changing the software development landscape and
                     who should use them.</p>
-                <a href="#" class="text-blue-600 font-medium hover:text-blue-800 transition">Read More</a>
+                <a href="{{route('single.index', 'single-page')}}" class="text-blue-600 font-medium hover:text-blue-800 transition">Read More</a>
             </div>
         </article>
     </div>
